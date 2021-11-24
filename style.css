@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+    font-family: 'Prompt', sans-serif;
+}
+
+#restart {
+    padding: 0.1rem;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.case {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    border: black 1px solid;
+    font-size: 15rem;
+}
+
+.green {
+    color: darkgreen;
+}
+
+.red {
+    color: darkred;
+}
